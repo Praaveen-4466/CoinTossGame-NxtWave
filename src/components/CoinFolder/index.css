@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  justify-content: center;
+}
+
+.sub-container {
+  height: 420px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  width: 380px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.img {
+  height: 120px;
+}
+
+.button {
+  background-color: #f9d423;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.result-container {
+  display: flex;
+  padding: 10px;
+}
+
+.para {
+  padding: 10px;
+  font-size: small;
+}
